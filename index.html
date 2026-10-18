@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101212">
+  <meta name="description" content="Conheça as modalidades do CrossFit Cromo, na Casa Verde Média, São Paulo. Entre em contato para consultar aulas e horários.">
+  <title>CrossFit Cromo | Seu próximo desafio começa aqui</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="CrossFit Cromo - início">
+      <span class="brand-mark">C</span><span>CROSSFIT<br><strong>CROMO</strong></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Início</a><a href="#modalidades">Modalidades</a><a href="#sobre">Sobre o Box</a>
+      <a href="#galeria">Galeria</a><a href="#duvidas">Perguntas frequentes</a><a href="#contato">Contato</a>
+    </nav>
+    <a class="button button-primary header-cta whatsapp-link" href="#">◉ Falar no WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">CROSSFIT CROMO <span>|</span> SÃO PAULO</p>
+        <h1>SEU PRÓXIMO<br><em>DESAFIO</em><br>COMEÇA AQUI.</h1>
+        <p class="hero-description">Conheça as modalidades do CrossFit Cromo e entre em contato para descobrir como participar das aulas.</p>
+        <div class="hero-actions">
+          <a class="button button-primary whatsapp-link" href="#">◉ Agendar aula experimental</a>
+          <a class="button button-outline" href="#modalidades">Conhecer modalidades</a>
+        </div>
+        <div class="hero-meta">
+          <span>⌖ Rua Tangerinas, 65, Casa Verde Média, São Paulo - SP</span>
+          <span>✣ Consulte modalidades e horários disponíveis</span>
+        </div>
+      </div>
+      <div class="hero-image" role="img" aria-label="Imagem ilustrativa de treinamento funcional em academia"></div>
+    </section>
+
+    <section class="section modalities" id="modalidades">
+      <div class="section-intro">
+        <p class="eyebrow">MODALIDADES</p>
+        <h2>Conheça nossas<br>modalidades</h2>
+        <p>Confira as atividades divulgadas pelo box e consulte a disponibilidade de cada uma.</p>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-image" role="img" aria-label="Imagem ilustrativa de um box de treinamento"></div>
+      <div class="about-content">
+        <p class="eyebrow">SOBRE O BOX</p>
+        <h2>Treinamento, técnica<br>e evolução.</h2>
+        <p>O CrossFit Cromo é um espaço de treinamento na Casa Verde Média, em São Paulo. Conheça as modalidades oferecidas e fale com a equipe para obter informações sobre as aulas.</p>
+        <div class="about-points">
+          <div><span>✣</span><p>Diversas modalidades<br>de treinamento</p></div>
+          <div><span>⌖</span><p>Localização na Casa Verde<br>Média, em São Paulo</p></div>
+          <div><span>☏</span><p>Contato direto para<br>consultar as aulas</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="section-intro">
+        <p class="eyebrow">GALERIA</p>
+        <h2>Nosso espaço,<br>seu próximo desafio.</h2>
+        <p>Confira imagens ilustrativas do ambiente de treinamento. Substitua-as por fotos autorizadas do box antes da publicação.</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <section class="beginner">
+      <div class="beginner-image" role="img" aria-label="Imagem ilustrativa de atleta em ambiente de treino"></div>
+      <div class="beginner-content">
+        <p class="eyebrow">PARA QUEM ESTÁ COMEÇANDO</p>
+        <h2>É mais simples do que você imagina.</h2>
+        <p>Se você nunca treinou, entre em contato para entender como funcionam as aulas e quais opções estão disponíveis para você.</p>
+        <a class="button button-primary whatsapp-link" href="#">◉ Enviar mensagem</a>
+      </div>
+      <ul class="beginner-points">
+        <li>Consulte a orientação disponível</li>
+        <li>Conheça o espaço e as modalidades</li>
+        <li>Verifique as opções adequadas ao seu nível</li>
+      </ul>
+    </section>
+
+    <section class="section faq-section" id="duvidas">
+      <div class="section-intro">
+        <p class="eyebrow">PERGUNTAS FREQUENTES</p>
+        <h2>Tire suas dúvidas.</h2>
+        <p>Reunimos informações iniciais sobre o CrossFit Cromo. Se precisar de mais detalhes, fale com a equipe.</p>
+        <a class="button button-outline whatsapp-link" href="#">◉ Falar no WhatsApp</a>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="contact-copy">
+        <p class="eyebrow">CONTATO</p>
+        <h2>Pronto para conhecer o box?</h2>
+        <p>Entre em contato para consultar horários, modalidades e informações sobre como participar.</p>
+        <p class="contact-detail">◉ <span id="phoneText">(11) 91256-6940</span></p>
+        <p class="contact-detail">⌖ Rua Tangerinas, 65, Casa Verde Média<br>&nbsp;&nbsp;&nbsp; São Paulo - SP, CEP 02521-080</p>
+        <p class="contact-detail">◎ @crossfitcromo</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Nome</label><input id="name" name="name" autocomplete="name" required placeholder="Seu nome">
+        <label for="phone">WhatsApp</label><input id="phone" name="phone" inputmode="tel" placeholder="Seu número (opcional)">
+        <label for="interest">Tenho interesse em...</label>
+        <select id="interest" name="interest">
+          <option>Agendar aula experimental</option><option>Conhecer as modalidades</option>
+          <option>Consultar horários</option><option>Outras informações</option>
+        </select>
+        <button class="button button-primary" type="submit">◉ Enviar mensagem</button>
+        <p class="form-note">O botão abre uma conversa no WhatsApp com a mensagem preenchida.</p>
+      </form>
+      <div class="map-card">
+        <div class="map-visual"><span>⌖ CrossFit Cromo</span></div>
+        <div class="map-info"><strong>CrossFit Cromo</strong><p>Rua Tangerinas, 65, Casa Verde Média<br>São Paulo - SP</p>
+          <a id="mapsLink" href="#" target="_blank" rel="noopener noreferrer">Ver no Google Maps ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">C</span><span>CROSSFIT<br><strong>CROMO</strong></span></a>
+    <p>Mais do que um treino, um estilo de vida.</p>
+    <div class="footer-links"><a href="https://www.instagram.com/crossfitcromo/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a class="whatsapp-link" href="#">WhatsApp ↗</a></div>
+    <small>© <span id="year"></span> CrossFit Cromo · São Paulo - SP</small>
+  </footer>
+  <a class="floating-whatsapp whatsapp-link" href="#" aria-label="Falar com o CrossFit Cromo pelo WhatsApp">◉ WhatsApp</a>
+</body>
+</html>
